@@ -1,4 +1,5 @@
 import type { MetaFunction } from "@remix-run/node";
+import Test from "~/test.client";
 
 export const meta: MetaFunction = () => {
   return [
@@ -36,6 +37,7 @@ export default function Index() {
           </a>
         </li>
       </ul>
+      <Test/>
     </div>
   );
 }

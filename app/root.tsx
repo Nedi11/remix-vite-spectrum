@@ -18,12 +18,12 @@ export default function App() {
         <Links />
       </head>
       <body>
-      <Provider theme={defaultTheme}>
+   
       <Outlet />
         <ScrollRestoration />
         <Scripts />
         <LiveReload />
-      </Provider>
+
       </body>
     </html>
   );
